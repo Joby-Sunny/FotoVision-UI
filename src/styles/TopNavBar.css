@@ -1,0 +1,75 @@
+.main_wrapper {
+    width: 100%;
+    height: 60px;
+    color: rgba(255, 255, 255, 0.8);
+    border: 0;
+    border-radius: 0;
+    top: 0;
+    position: fixed;
+    z-index: 10;
+    background-color:rgb(2, 2, 2, 0.5);
+}
+
+.content_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {}
+
+.title {
+    font-family: 'Covered By Your Grace', cursive;
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: rgb(255, 105, 95);
+    cursor: pointer;
+    -webkit-transition: color 2s;
+    transition: color 2s;
+}
+
+.title:hover {
+    text-shadow: 2px 2px 20px rgb(255, 60, 50);
+    color: #eee;
+}
+
+.right {}
+
+.navlist {
+    list-style-type: none;
+    padding-top: 18px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navlist li {
+    padding: 0 10px;
+}
+
+.navlist li a {
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0;
+    border-radius: 2px;
+    padding: 5px 7px;
+    -webkit-transition: color 1s, font-size 1s, text-shadow 1s;
+    transition: color 1s, font-size 1s, text-shadow 1s;
+}
+
+.navlist li a:hover,
+.active {
+    font-size: 17px;
+    text-shadow: 1px 1px 1px #eee;
+    color: rgb(255, 60, 50) !important;
+}
+
+/*The navigation Bar custom styling*/
+@media only screen and (max-width: 680px) {
+    .navbar {
+        height: 50px;
+    }
+    .navbar .title {
+        font-size: 30px;
+    }
+}
