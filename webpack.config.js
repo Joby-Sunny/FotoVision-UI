@@ -19,7 +19,9 @@ module.exports = {
             {
                 test: /\.css$/,
                 use: ['style-loader', 'css-loader']
-            }
+            },
+            { test: /\.png$/, loader: "file-loader" },
+            { test: /\.jpg$/, loader: "file-loader" }
         ]
     },
     plugins: [
