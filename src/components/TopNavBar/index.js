@@ -4,7 +4,7 @@ import '../../styles/TopNavBar.css';
 export default class TopNavBar extends React.Component {
     render(){
         return (
-            <div className="container-fluid main_wrapper">
+            <div className="main_wrapper">
                 <div className="content_wrapper">
                     <div className="left">
                         <span className="title">Photo Vision</span>

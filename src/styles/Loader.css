@@ -1,0 +1,102 @@
+.Loader_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    margin-top: 20%;
+    -webkit-animation: color_change 3s infinite alternate;
+    -moz-animation: color_change 3s infinite alternate;
+    -ms-animation: color_change 3s infinite alternate;
+    -o-animation: color_change 3s infinite alternate;
+    animation: color_change 3s infinite alternate;
+}
+
+@-webkit-keyframes color_change {
+    0% {
+        color: lightcoral;
+    }
+    25% {
+        color: yellow;
+    }
+    50% {
+        color: yellowgreen;
+    }
+    75% {
+        color: dodgerblue;
+    }
+    100% {
+        color: coral;
+    }
+}
+
+@-moz-keyframes color_change {
+    0% {
+        color: lightcoral;
+    }
+    25% {
+        color: yellow;
+    }
+    50% {
+        color: yellowgreen;
+    }
+    75% {
+        color: dodgerblue;
+    }
+    100% {
+        color: coral;
+    }
+}
+
+@-ms-keyframes color_change {
+    0% {
+        color: lightcoral;
+    }
+    25% {
+        color: yellow;
+    }
+    50% {
+        color: yellowgreen;
+    }
+    75% {
+        color: dodgerblue;
+    }
+    100% {
+        color: coral;
+    }
+}
+
+@-o-keyframes color_change {
+    0% {
+        color: lightcoral;
+    }
+    25% {
+        color: yellow;
+    }
+    50% {
+        color: yellowgreen;
+    }
+    75% {
+        color: dodgerblue;
+    }
+    100% {
+        color: coral;
+    }
+}
+
+@keyframes color_change {
+    0% {
+        color: lightcoral;
+    }
+    25% {
+        color: yellow;
+    }
+    50% {
+        color: yellowgreen;
+    }
+    75% {
+        color: dodgerblue;
+    }
+    100% {
+        color: coral;
+    }
+}

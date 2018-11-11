@@ -5,7 +5,7 @@ export default class Home extends React.Component {
 
     render() {
         return (
-            <div className="container-fluid home_wrapper">
+            <div className="home_wrapper">
                 <div className="home-title_wrapper">
                     <h1 className="home-title link link--yaku">
                         <span>F</span>
