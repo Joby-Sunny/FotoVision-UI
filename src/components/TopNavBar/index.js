@@ -7,7 +7,7 @@ export default class TopNavBar extends React.Component {
             <div className="main_wrapper">
                 <div className="content_wrapper">
                     <div className="left">
-                        <span className="title">Photo Vision</span>
+                        <span className="title">FotoVision</span>
                     </div>
                     <div className="right">
                         <ul className="navlist">

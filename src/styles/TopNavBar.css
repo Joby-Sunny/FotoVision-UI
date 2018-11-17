@@ -1,3 +1,4 @@
+@import './colors.css';
 .main_wrapper {
     width: 100%;
     height: 60px;
@@ -7,7 +8,7 @@
     top: 0;
     position: fixed;
     z-index: 10;
-    background-color:rgb(2, 2, 2, 0.5);
+    background-color: var(--main-black);
 }
 
 .content_wrapper {
@@ -23,14 +24,14 @@
     font-weight: 800;
     font-size: 30px;
     letter-spacing: 3px;
-    color: rgb(255, 105, 95);
+    color: var(--main-red);
     cursor: pointer;
     -webkit-transition: color 2s;
     transition: color 2s;
 }
 
 .title:hover {
-    text-shadow: 2px 2px 20px rgb(255, 60, 50);
+    text-shadow: 2px 2px 20px var(--main-red);
     color: #eee;
 }
 
@@ -61,10 +62,11 @@
 .active {
     font-size: 17px;
     text-shadow: 1px 1px 1px #eee;
-    color: rgb(255, 60, 50) !important;
+    color: var(--main-red) !important;
 }
 
 /*The navigation Bar custom styling*/
+
 @media only screen and (max-width: 680px) {
     .navbar {
         height: 50px;
