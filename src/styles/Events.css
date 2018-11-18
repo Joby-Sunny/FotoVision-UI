@@ -32,6 +32,8 @@
 }
 
 .page_wrapper .page_content {
+    -webkit-trnasition: all 1s;
+    transition: all 1s;
     display: flex;
     flex-direction: column;
     border: 3px solid var(--dark-grey);

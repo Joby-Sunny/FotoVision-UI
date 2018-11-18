@@ -3,3 +3,16 @@
     --main-black: rgba(3, 3, 3, 0.7);
     --dark-grey: #919191;
 }
+
+/* for initial loading effect; Remove this class from */
+
+.loaded {
+    opacity: 0;
+    -webkit-transform: translateY(15px);
+    transform: translateY(15px);
+}
+
+* {
+    -webkit-trnasition: all 1s;
+    transition: all 1s;
+}
